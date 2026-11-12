@@ -37,7 +37,14 @@ y cambia la propiedad `image` por `./images/mi-foto.jpg`.
 - **Responsive / mobile-first**: probado de 360 px a 1440 px, sin scroll horizontal.
 - **Rendimiento**: JS ~10 KB gzip, CSS ~5 KB gzip, imágenes con `loading="lazy"` y `decoding="async"`, la primera diapositiva con `fetchpriority="high"`.
 - **Accesibilidad**: enlace "saltar al contenido", HTML semántico, roles ARIA en carrusel, foco visible, objetivos táctiles ≥ 44 px, respeta `prefers-reduced-motion`, textos alternativos.
-- **SEO**: title/description, Open Graph, `lang="es-PE"` y datos estructurados Schema.org (`HomeAndConstructionBusiness`).
+- **SEO**:
+  - Todo el contenido se escribe en el HTML al compilar (prerender), así Google y las redes lo leen sin ejecutar JavaScript.
+  - Título y descripción optimizados, URL canónica, `lang="es-PE"` y región geográfica (PE-PIU).
+  - `sitemap.xml` generado en cada build y `robots.txt`.
+  - Datos estructurados Schema.org: negocio local (`HVACBusiness`) con dirección, horario, teléfono, zonas atendidas y catálogo de servicios, más `WebSite` y `FAQPage`.
+  - Imagen para compartir de 1200×630 (`public/og-image.png`), etiquetas Open Graph y Twitter, e ícono para iPhone.
+  - Un solo `h1`, secciones con `h2` y todas las imágenes con texto alternativo.
+  - Si usas un dominio propio, cambia `SITE_URL` en `src/data.ts`, las URLs de `index.html` y `public/robots.txt`.
 - **Seguridad**: enlaces externos con `rel="noopener noreferrer"`, escape de textos al renderizar, sin backend ni datos almacenados.
 - **Mantenibilidad**: TypeScript estricto, contenido separado en `data.ts`, componentes en `main.ts`, carrusel en `carousel.ts`.
 - **Compatibilidad**: navegadores modernos (Chrome, Edge, Firefox, Safari, iOS/Android).

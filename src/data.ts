@@ -4,6 +4,9 @@
 //  rutas como "./images/aire-01.jpg".
 // ─────────────────────────────────────────────────────────────
 
+/** Dirección pública del sitio. Cámbiala si usas un dominio propio (también en public/robots.txt). */
+export const SITE_URL = 'https://cooling-solution-sac.vercel.app';
+
 export const COMPANY = {
   name: 'Cooling Solution SAC',
   short: 'Cooling Solution',

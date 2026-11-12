@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cooling-solution-sac.vercel.app/sitemap.xml
