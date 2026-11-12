@@ -204,12 +204,14 @@ export const SLIDES: Slide[] = [
 
 export const GALLERY: { image: string; caption: string }[] = [
   { image: u('photo-1761330440311-16e160cad236', 800), caption: 'Sala climatizada' },
+  { image: u('photo-1726614846573-c1ac2e6161d1', 800), caption: 'Equipo split instalado' },
+  { image: u('photo-1759772238012-9d5ad59ae637', 800), caption: 'Instalación de aire acondicionado' },
+  { image: u('photo-1762341123870-d706f257a12e', 800), caption: 'Equipo funcionando a 22 °C' },
+  { image: u('photo-1776860150250-757406c52438', 800), caption: 'Climatización comercial' },
   { image: u('photo-1556911220-bff31c812dba', 800), caption: 'Cocina en melamine' },
   { image: u('photo-1600566753190-17f0baa2a6c3', 800), caption: 'Falso techo en drywall' },
-  { image: u('photo-1620626011761-996317b8d101', 800), caption: 'Baño — gasfitería' },
   { image: u('photo-1600607687939-ce8a6c25118c', 800), caption: 'Piso de porcelanato' },
-  { image: u('photo-1497366216548-37526070297c', 800), caption: 'Oficina' },
-  { image: u('photo-1726614846573-c1ac2e6161d1', 800), caption: 'Equipo split instalado' },
+  { image: u('photo-1620626011761-996317b8d101', 800), caption: 'Baño — gasfitería' },
 ];
 
 export const STEPS = [
