@@ -340,3 +340,6 @@ dialog::backdrop { background: rgba(7,19,31,.7); backdrop-filter: blur(4px); }
 .form__status svg { flex: none; margin-top: .15rem; }
 .form__status a { text-decoration: underline; font-weight: 600; }
 .gallery__item { background: radial-gradient(circle at 70% 30%, rgba(124,196,232,.22), transparent 60%), repeating-linear-gradient(45deg, rgba(255,255,255,.03) 0 2px, transparent 2px 14px), linear-gradient(135deg, #1a3550, #0b1b2b); }
+
+.footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; }
+.footer__credit strong { color: #fff; font-weight: 600; }
