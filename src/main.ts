@@ -257,7 +257,7 @@ const footer = () => `
   </div>
   <div class="container footer__bottom">
     <p>© ${new Date().getFullYear()} ${esc(COMPANY.name)}. Todos los derechos reservados.</p>
-    <p class="footer__credit">Esta página fue desarrollada por <strong>Angela Valeria Ruiz Leon</strong></p>
+    <p class="footer__credit">Esta página fue desarrollada por <strong>Angela Valeria Ruiz Leon</strong> · Desarrolladora de software</p>
   </div>
 </footer>`;
 
