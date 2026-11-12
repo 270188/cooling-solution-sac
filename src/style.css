@@ -342,3 +342,4 @@ dialog::backdrop { background: rgba(7,19,31,.7); backdrop-filter: blur(4px); }
 
 .footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 2rem; }
 .footer__credit strong { color: #fff; font-weight: 600; }
+.footer__credit a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
