@@ -48,7 +48,7 @@ export const SERVICES: Service[] = [
       'Vacío del sistema y prueba de funcionamiento',
       'Acabado limpio y orientación de uso',
     ],
-    image: u('photo-1631545806609-35d4ae440431'),
+    image: u('photo-1759772238012-9d5ad59ae637'),
   },
   {
     id: 'mantenimiento-aire',
@@ -61,7 +61,7 @@ export const SERVICES: Service[] = [
       'Revisión eléctrica de capacitores y contactores',
       'Diagnóstico de fallas y reparación',
     ],
-    image: u('photo-1621905251189-08b45d6a269e'),
+    image: u('photo-1762341123870-d706f257a12e'),
   },
   {
     id: 'refrigeracion',
@@ -169,7 +169,7 @@ export const SLIDES: Slide[] = [
     eyebrow: 'Climatización',
     title: 'Aire fresco, instalado con precisión.',
     text: 'Instalación y mantenimiento de aire acondicionado para el calor de Piura.',
-    image: u('photo-1600585154340-be6161a56a0c', 1800),
+    image: u('photo-1761330440311-16e160cad236', 1800),
     cta: { label: 'Ver servicios', href: '#servicios' },
   },
   {
@@ -203,13 +203,13 @@ export const SLIDES: Slide[] = [
 ];
 
 export const GALLERY: { image: string; caption: string }[] = [
-  { image: u('photo-1513694203232-719a280e022f', 800), caption: 'Sala climatizada' },
+  { image: u('photo-1761330440311-16e160cad236', 800), caption: 'Sala climatizada' },
   { image: u('photo-1556911220-bff31c812dba', 800), caption: 'Cocina en melamine' },
   { image: u('photo-1600566753190-17f0baa2a6c3', 800), caption: 'Falso techo en drywall' },
   { image: u('photo-1620626011761-996317b8d101', 800), caption: 'Baño — gasfitería' },
   { image: u('photo-1600607687939-ce8a6c25118c', 800), caption: 'Piso de porcelanato' },
   { image: u('photo-1497366216548-37526070297c', 800), caption: 'Oficina' },
-  { image: u('photo-1621905251189-08b45d6a269e', 800), caption: 'Mantenimiento de equipos' },
+  { image: u('photo-1726614846573-c1ac2e6161d1', 800), caption: 'Equipo split instalado' },
 ];
 
 export const STEPS = [
